@@ -1,5 +1,5 @@
+import React from 'react';
 
-
-export { default as HopponButton } from './components/ButtonComponent';
-
-export { default as HopponParagraph} from './components/ParagraphComponent';
+export const HopponParagraph = ({ para }) => {
+  return <p>{para}</p>;
+};
